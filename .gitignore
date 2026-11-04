@@ -1,0 +1,20 @@
+# Whitelist: only the paper's pipeline is tracked. Raw data come from ./fetch_data.sh.
+*
+!.gitignore
+!README.md
+!LICENSE
+!CITATION.cff
+!.zenodo.json
+!requirements.txt
+!fetch_data.sh
+!run_all.sh
+!common.py
+!robust.py
+!robust_*.py
+!robust*_results.json
+!fig_noise.py
+!fig_folA.py
+!fig_noise.png
+!fig_folA.png
+!joint_tests.py
+!joint_tests_results.json

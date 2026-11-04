@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Measurement noise can mimic higher-order epistasis in the topography of fitness landscapes: analysis code"
+authors:
+  - family-names: Kumar
+    given-names: Jayanta
+version: 1.0.0
+date-released: 2026-11-05
+license: MIT
+references:
+  - type: dataset
+    title: "Code to reproduce data analyses and figures for manuscript \"A rugged yet highly navigable landscape\""
+    authors:
+      - family-names: Papkou
+        given-names: Andrei
+    doi: 10.5281/zenodo.13837982
+  - type: article
+    title: "Adaptation in protein fitness landscapes is facilitated by indirect paths"
+    authors:
+      - family-names: Wu
+        given-names: Nicholas C.
+    journal: eLife
+    year: 2016
+    doi: 10.7554/eLife.16965

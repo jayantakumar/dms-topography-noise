@@ -1,0 +1,13 @@
+{
+  "title": "Measurement noise can mimic higher-order epistasis in the topography of fitness landscapes: analysis code",
+  "upload_type": "software",
+  "description": "Noise-aware analysis of peaks, basins and accessibility in the GB1 (Wu et al. 2016) and folA (Papkou et al. 2023) combinatorial fitness landscapes: depth thinning, significance-thresholded reachability, low-order Fourier null models with simulated measurement noise, and a controlled degradation experiment. Raw data are downloaded and checksum-verified by fetch_data.sh; run_all.sh reproduces every result and figure.",
+  "creators": [{"name": "Kumar, Jayanta"}],
+  "license": "MIT",
+  "keywords": ["fitness landscape", "epistasis", "deep mutational scanning", "measurement noise", "evolutionary accessibility"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.13837982", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.7554/eLife.16965", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1126/science.adh3860", "relation": "references", "scheme": "doi"}
+  ]
+}
