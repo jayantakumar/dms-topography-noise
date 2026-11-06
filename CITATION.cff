@@ -4,8 +4,9 @@ title: "Measurement noise can mimic higher-order epistasis in the topography of 
 authors:
   - family-names: Kumar
     given-names: Jayanta
-version: 1.0.0
-date-released: 2026-11-05
+version: 1.0.1
+doi: 10.5281/zenodo.24008996
+date-released: 2026-11-06
 license: MIT
 references:
   - type: dataset

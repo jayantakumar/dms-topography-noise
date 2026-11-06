@@ -1,5 +1,7 @@
 # Measurement noise can mimic higher-order epistasis in the topography of fitness landscapes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24008996.svg)](https://doi.org/10.5281/zenodo.24008996)
+
 Analysis code for the manuscript of the same title (in preparation).
 
 Peaks, basins and evolutionary accessibility of an empirical fitness landscape depend only on which of
@@ -45,6 +47,12 @@ Not redistributed here; `fetch_data.sh` downloads them from their sources.
   (github.com/J-SNACKKB/FLIP).
 - folA: Papkou A et al. (2023) *Science* 382:eadh3860, doi:10.1126/science.adh3860; data from the authors'
   Zenodo deposit, doi:10.5281/zenodo.13837982 (CC-BY-4.0).
+
+## Cite
+
+Kumar J. *Measurement noise can mimic higher-order epistasis in the topography of fitness landscapes: analysis code.*
+Zenodo (2026). doi:[10.5281/zenodo.24008996](https://doi.org/10.5281/zenodo.24008996)
+(this DOI always resolves to the latest version; v1.0.1 is doi:10.5281/zenodo.24008997).
 
 ## License
 
