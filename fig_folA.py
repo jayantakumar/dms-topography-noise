@@ -2,7 +2,7 @@ import json, numpy as np
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 plt.rcParams.update({'font.size':15,'axes.titlesize':15,'axes.labelsize':14,
-                     'xtick.labelsize':13,'ytick.labelsize':13,'legend.fontsize':11.5})
+                     'xtick.labelsize':13,'ytick.labelsize':13,'legend.fontsize':12.5})
 A = json.load(open('robust_folA_results.json')); G = json.load(open('robust_results.json'))
 GD = json.load(open('robust_depth_results.json')); GR = json.load(open('robust_folA_grid_results.json'))
 C = {'1':'#DD8452', '2':'#4C72B0', 'data':'#C44E52', 'gb1':'#555555'}
@@ -28,6 +28,7 @@ for panel, key, ylab, title in [(ax[0,1], 'func_peaks', 'functional peaks', 'B. 
     panel.axhline(A['data']['0'][key], color=C['data'], ls='--', label='folA data')
     panel.set_xscale('log', base=2); panel.set_xticks([0.5, 1, 2]); panel.set_xticklabels(['0.5×','1×','2×'])
     panel.set_xlabel('noise scale (× measured replicate SE)'); panel.set_ylabel(ylab); panel.set_yscale('log')
+    lo, hi = panel.get_ylim(); panel.set_ylim(lo, hi*(4 if key == 'func_peaks' else 1.6))
     panel.legend(); panel.set_title(title)
 
 # D: support vs significance threshold, both landscapes
